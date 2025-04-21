@@ -14,14 +14,9 @@ This project combines robotics, computer vision, and AI to create a smart mail s
 
 ## 🎥 Demonstration Videos
 
-<details>
-<summary>Suction Cup Testing</summary>
+### Suction Cup Testing
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/05a551aa-4884-43fc-aa99-f2e50f5f7da3" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</details>
+https://github.com/user-attachments/assets/05a551aa-4884-43fc-aa99-f2e50f5f7da3
 
 <details>
 <summary>X-Axis Movement</summary>
