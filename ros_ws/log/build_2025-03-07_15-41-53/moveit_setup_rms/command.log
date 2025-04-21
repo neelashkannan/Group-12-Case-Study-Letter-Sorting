@@ -1,0 +1,2 @@
+Invoking command in '/home/neelash/urdf_ws/build/moveit_setup_rms': /usr/bin/cmake /home/neelash/urdf_ws/src/moveit_setup_rms -DCMAKE_INSTALL_PREFIX=/home/neelash/urdf_ws/install/moveit_setup_rms
+Invoked command in '/home/neelash/urdf_ws/build/moveit_setup_rms' returned '1': /usr/bin/cmake /home/neelash/urdf_ws/src/moveit_setup_rms -DCMAKE_INSTALL_PREFIX=/home/neelash/urdf_ws/install/moveit_setup_rms

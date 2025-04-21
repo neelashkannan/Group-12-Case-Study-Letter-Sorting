@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Full">
+
+    
+    <link name="world"/>
+
+    
+    <joint name="world_joint" type="fixed">
+        <parent link="world"/>
+        <child link="Base-v1"/>
+        <origin xyz="0 0 0" rpy="1.57 0 0"/>
+    </joint>
+
+
+   
+
+    <link name="Base-v1">
+        <inertial>
+            <origin xyz="0 0 0" rpy="0.0 1.57 0.0" />
+            <mass value="1.5841960851584953" />
+            <inertia ixx="0.0019343925509478547" iyy="0.002922564697452351" izz="0.0019280909894288623" ixy="-1.4029039136296486e-06" iyz="2.7242454120453767e-17" ixz="-3.2677516034636543e-18" />
+        </inertial>
+        <visual name="Base-v1_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Base-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Base-v1_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Base-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="Waist-v1">
+        <inertial>
+            <origin xyz="0.0012671681495757638 0.005720672514226869 0.01632898614142321" rpy="0.0 -0.0 0.0" />
+            <mass value="0.6272819365021121" />
+            <inertia ixx="0.0004377588788490507" iyy="0.0005327919075018514" izz="0.0005395501272474572" ixy="-1.7339262852157017e-05" iyz="-5.605813743030287e-05" ixz="-4.759883007256091e-05" />
+        </inertial>
+        <visual name="Waist-v1_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948968 -7.203005260804219e-18 -1.4528893219072108" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Waist-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Waist-v1_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948968 -7.203005260804219e-18 -1.4528893219072108" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Waist-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="Arm-01-v1">
+        <inertial>
+            <origin xyz="0.007174161454748397 -0.05982184214783512 0.005504623173362247" rpy="0.0 -0.0 1.3684555315672045e-48" />
+            <mass value="0.5029413662942186" />
+            <inertia ixx="0.0008522938497419646" iyy="7.686209564411288e-05" izz="0.0008108304972406861" ixy="-6.706821171419653e-06" iyz="5.662120103047088e-05" ixz="4.9817861280901726e-06" />
+        </inertial>
+        <visual name="Arm-01-v1_visual">
+            <origin xyz="0.02085419969719422 -1.759331169637335e-10 0.002470318416282509" rpy="2.5649350238110364 1.4300054615061795 -0.5812116897024879" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Arm-01-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Arm-01-v1_collision">
+            <origin xyz="0.02085419969719422 -1.759331169637335e-10 0.002470318416282509" rpy="2.5649350238110364 1.4300054615061795 -0.5812116897024879" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Arm-01-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="Arm-02-v1">
+        <inertial>
+            <origin xyz="0.04033452449803634 -0.005887075033096139 0.010537757709928177" rpy="0.0 -0.0 1.3781443036412878e-51" />
+            <mass value="0.36971477325871516" />
+            <inertia ixx="7.939089821021664e-05" iyy="0.00039673314565697674" izz="0.00042494093163040017" ixy="4.681551753867899e-05" iyz="5.0953767501994975e-06" ixz="-3.829122998024289e-05" />
+        </inertial>
+        <visual name="Arm-02-v1_visual">
+            <origin xyz="0.034166955741842905 -0.004878619609602488 0.0040472972561662116" rpy="0.01662879336355181 -0.11673389487020806 -0.1418289303686558" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Arm-02-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Arm-02-v1_collision">
+            <origin xyz="0.034166955741842905 -0.004878619609602488 0.0040472972561662116" rpy="0.01662879336355181 -0.11673389487020806 -0.1418289303686558" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Arm-02-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="Arm-03-v1">
+        <inertial>
+            <origin xyz="0.003328612803981841 -0.007404315259190107 0.017448896435718737" rpy="-2.465190328815662e-32 -0.0 0.0" />
+            <mass value="0.12929221233201882" />
+            <inertia ixx="4.0094875349528186e-05" iyy="3.0462929850060008e-05" izz="1.9847803382298114e-05" ixy="6.030740574837314e-07" iyz="1.3258067531208419e-06" ixz="-2.1613852940017644e-06" />
+        </inertial>
+        <visual name="Arm-03-v1_visual">
+            <origin xyz="0.0001690876726700985 -0.004949724022803252 -0.0006867318389041622" rpy="1.6922892426684695 0.13778155669737305 -1.5366481469545703" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Arm-03-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Arm-03-v1_collision">
+            <origin xyz="0.0001690876726700985 -0.004949724022803252 -0.0006867318389041622" rpy="1.6922892426684695 0.13778155669737305 -1.5366481469545703" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Arm-03-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="Gripper-base-v1">
+        <inertial>
+            <origin xyz="0.0292647906259794 -0.002631942888767611 0.010253676982615754" rpy="0.0 -0.0 0.0" />
+            <mass value="0.10945811404763497" />
+            <inertia ixx="1.94992583529615e-05" iyy="5.966723053334393e-05" izz="4.8834325374494045e-05" ixy="3.877433040869009e-06" iyz="2.0979126872018253e-06" ixz="-1.1952067406254616e-05" />
+        </inertial>
+        <visual name="Gripper-base-v1_visual">
+            <origin xyz="0.06317908557859961 -6.481971089158378e-05 -0.0076419014602130565" rpy="-2.8590026992489808 -1.4492177082657172 -0.14275123841046303" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Gripper-base-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Gripper-base-v1_collision">
+            <origin xyz="0.06317908557859961 -6.481971089158378e-05 -0.0076419014602130565" rpy="-2.8590026992489808 -1.4492177082657172 -0.14275123841046303" />
+            <geometry>
+                <mesh filename="C:/Users/Neelash/OneDrive/Robotics Mechaical System/Microcontroller/meshes/Gripper-base-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="Base-v1_Revolute-1" type="continuous">
+        <origin xyz="0.0 0.055999999999999994 0.0" rpy="-1.5707963267948966 -0.0 0.0" />
+        <parent link="Base-v1" />
+        <child link="Waist-v1" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="Waist-v1_Revolute-3" type="continuous">
+        <origin xyz="0.01335133 0.00560952 0.04027648000000001" rpy="-1.5707963267948966 1.2325951644078312e-32 -1.5707963267948966" />
+        <parent link="Waist-v1" />
+        <child link="Arm-01-v1" />
+        <axis xyz="0.9930569999999999 0.0 0.11763399999999999" />
+    </joint>
+    <joint name="Arm-01-v1_Revolute-4" type="continuous">
+        <origin xyz="-0.0010875599999999996 -0.11964332 0.00918113" rpy="-1.232595164407831e-32 -1.5707963267948966 0" />
+        <parent link="Arm-01-v1" />
+        <child link="Arm-02-v1" />
+        <axis xyz="0.11763399999999999 -8.672654608354869e-19 -0.9930570000000002" />
+    </joint>
+    <joint name="Arm-02-v1_Revolute-6" type="continuous">
+        <origin xyz="0.08833608000000003 -0.007352670000000039 0.016002429999999998" rpy="1.3424705426259952e-16 1.5707963267948966 0" />
+        <parent link="Arm-02-v1" />
+        <child link="Arm-03-v1" />
+        <axis xyz="-0.11646900000000003 -0.14039199999999985 0.9832220000000003" />
+    </joint>
+    <joint name="Arm-03-v1_Revolute-7" type="continuous">
+        <origin xyz="0.01080461 -0.008639139999999976 0.028524119999999976" rpy="-3.141592653589793 -1.5707963267948966 0" />
+        <parent link="Arm-03-v1" />
+        <child link="Gripper-base-v1" />
+        <axis xyz="-0.120046 0.017253999999999995 -0.992618" />
+    </joint>
+
+</robot>

@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neelash/urdf_ws/build/moveit_setup_rms
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/ament_index/resource_index/package_run_dependencies/moveit_setup_rms
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/ament_index/resource_index/parent_prefix_path/moveit_setup_rms
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/environment/ament_prefix_path.sh
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/environment/ament_prefix_path.dsv
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/environment/path.sh
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/environment/path.dsv
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/local_setup.bash
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/local_setup.sh
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/local_setup.zsh
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/local_setup.dsv
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/package.dsv
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/ament_index/resource_index/packages/moveit_setup_rms
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/cmake/moveit_setup_rmsConfig.cmake
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/cmake/moveit_setup_rmsConfig-version.cmake
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/package.xml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/demo.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/move_group.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/moveit_rviz.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/rsp.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/setup_assistant.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/spawn_controllers.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/launch/warehouse_db.launch.py
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/Full.ros2_control.xacro
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/Full.srdf
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/Full.urdf.xacro
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/initial_positions.yaml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/joint_limits.yaml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/kinematics.yaml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/moveit.rviz
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/moveit_controllers.yaml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/config/ros2_controllers.yaml
+-- Symlinking: /home/neelash/urdf_ws/install/moveit_setup_rms/share/moveit_setup_rms/.setup_assistant

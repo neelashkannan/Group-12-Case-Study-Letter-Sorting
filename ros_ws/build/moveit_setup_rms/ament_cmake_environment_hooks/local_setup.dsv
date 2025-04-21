@@ -1,0 +1,2 @@
+source;share/moveit_setup_rms/environment/ament_prefix_path.sh
+source;share/moveit_setup_rms/environment/path.sh

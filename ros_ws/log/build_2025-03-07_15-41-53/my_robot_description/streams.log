@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/neelash/urdf_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neelash/moveit2_ws/install/moveit_configs_utils:/home/neelash/moveit2_ws/install/launch_param_builder:/home/neelash/urdf_ws/install/arm_kinematics:/opt/ros/humble /usr/bin/cmake /home/neelash/urdf_ws/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neelash/urdf_ws/install/my_robot_description
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.515s] -- The CXX compiler identification is GNU 11.4.0
+[0.733s] -- Detecting C compiler ABI info
+[0.815s] -- Detecting C compiler ABI info - done
+[0.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.819s] -- Detecting C compile features
+[0.819s] -- Detecting C compile features - done
+[0.821s] -- Detecting CXX compiler ABI info
+[0.908s] -- Detecting CXX compiler ABI info - done
+[0.912s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.912s] -- Detecting CXX compile features
+[0.912s] -- Detecting CXX compile features - done
+[0.916s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.013s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.054s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.091s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.158s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.159s] -- Added test 'lint_cmake' to check CMake code style
+[1.159s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.161s] -- Added test 'xmllint' to check XML markup files
+[1.163s] -- Configuring done
+[1.165s] -- Generating done
+[1.165s] -- Build files have been written to: /home/neelash/urdf_ws/build/my_robot_description

@@ -1,0 +1,26 @@
+# controllers.yaml for ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+arm_controller:
+  ros__parameters:
+    joints:
+      - Base-v1_Revolute-1
+      - Waist-v1_Revolute-3
+      - Arm-01-v1_Revolute-4
+      - Arm-02-v1_Revolute-6
+      - Arm-03-v1_Revolute-7
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false

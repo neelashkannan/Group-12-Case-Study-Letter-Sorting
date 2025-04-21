@@ -1,0 +1,8 @@
+# Default initial positions for Full's ros2_control fake system
+
+initial_positions:
+  Arm-01-v1_Revolute-4: 0
+  Arm-02-v1_Revolute-6: 0
+  Arm-03-v1_Revolute-7: 0
+  Base-v1_Revolute-1: 0
+  Waist-v1_Revolute-3: 0

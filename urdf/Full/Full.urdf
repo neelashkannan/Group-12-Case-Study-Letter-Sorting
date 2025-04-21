@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Full">
+    <link name="Base-v1">
+        <inertial>
+            <origin xyz="-0.00032054556595326016 0.022587328432125346 8.112101940187377e-16" rpy="0.0 0.0 0.0" />
+            <mass value="1.5841960851584953" />
+            <inertia ixx="0.0019343925509478547" iyy="0.002922564697452351" izz="0.0019280909894288623" ixy="-1.4029039136296486e-06" iyz="2.7242454120453767e-17" ixz="-3.2677516034636543e-18" />
+        </inertial>
+        <visual name="Base-v1_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/Base-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Base-v1_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="meshes/Base-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Waist-v1">
+        <inertial>
+            <origin xyz="0.001045428956612979 0.005765317634875389 0.01632898614142321" rpy="0.0 -0.0 0.0" />
+            <mass value="0.6272819365021121" />
+            <inertia ixx="0.0004392378996130072" iyy="0.0005313128867378931" izz="0.0005395501272474572" ixy="-2.0952764888559248e-05" iyz="-5.7853492349679543e-05" ixz="-4.5399744706075246e-05" />
+        </inertial>
+        <visual name="Waist-v1_visual">
+            <origin xyz="2.7539018070143467e-44 3.9302918678150306e-44 0.0" rpy="1.5707963267948968 -7.00284427793901e-17 -1.4142837424902828" />
+            <geometry>
+                <mesh filename="meshes/Waist-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Waist-v1_collision">
+            <origin xyz="2.7539018070143467e-44 3.9302918678150306e-44 0.0" rpy="1.5707963267948968 -7.00284427793901e-17 -1.4142837424902828" />
+            <geometry>
+                <mesh filename="meshes/Waist-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Arm-01-v1">
+        <inertial>
+            <origin xyz="0.006854461719639945 -0.05976773155634172 0.006423151642093934" rpy="0.0 -0.0 0.0" />
+            <mass value="0.5029413662942186" />
+            <inertia ixx="0.0008518153991456077" iyy="7.819635979213052e-05" izz="0.0008099746836890201" ixy="-1.0134727682474832e-05" iyz="6.422592302507673e-05" ixz="6.771502729087562e-06" />
+        </inertial>
+        <visual name="Arm-01-v1_visual">
+            <origin xyz="0.020743318650166258 -1.7593318801800706e-10 0.0032733631749851068" rpy="2.633181391039131 1.39139130962001 -0.5153205404506469" />
+            <geometry>
+                <mesh filename="meshes/Arm-01-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Arm-01-v1_collision">
+            <origin xyz="0.020743318650166258 -1.7593318801800706e-10 0.0032733631749851068" rpy="2.633181391039131 1.39139130962001 -0.5153205404506469" />
+            <geometry>
+                <mesh filename="meshes/Arm-01-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Arm-02-v1">
+        <inertial>
+            <origin xyz="0.0401564772409205 0.003599690127577944 0.012127484614150617" rpy="0.0 -0.0 -3.3409558876152446e-52" />
+            <mass value="0.36971477325871516" />
+            <inertia ixx="7.864787205037749e-05" iyy="0.00040104307529661596" izz="0.0004213740281505986" ixy="-2.8210812845604928e-05" iyz="-4.175312126022436e-06" ixz="-5.214869427751371e-05" />
+        </inertial>
+        <visual name="Arm-02-v1_visual">
+            <origin xyz="0.03419495078736982 0.0030249793860944864 0.005396075139706632" rpy="-0.013735849713636505 -0.15591358762379304 0.08823295042910874" />
+            <geometry>
+                <mesh filename="meshes/Arm-02-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Arm-02-v1_collision">
+            <origin xyz="0.03419495078736982 0.0030249793860944864 0.005396075139706632" rpy="-0.013735849713636505 -0.15591358762379304 0.08823295042910874" />
+            <geometry>
+                <mesh filename="meshes/Arm-02-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Arm-03-v1">
+        <inertial>
+            <origin xyz="0.0029893927623256466 -0.002747305087198839 0.01881178916504263" rpy="4.814824860968104e-35 -0.0 0.0" />
+            <mass value="0.12929221233201882" />
+            <inertia ixx="4.012525619322225e-05" iyy="3.0558169984491734e-05" izz="1.972218240416969e-05" ixy="9.374149566383941e-07" iyz="-1.434181022916955e-06" ixz="-1.4894394556678456e-06" />
+        </inertial>
+        <visual name="Arm-03-v1_visual">
+            <origin xyz="0.0005781233441339628 -0.00493830857863518 0.0005280829323925573" rpy="1.715407522449564 -0.10581446985290878 -1.4542576694061635" />
+            <geometry>
+                <mesh filename="meshes/Arm-03-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Arm-03-v1_collision">
+            <origin xyz="0.0005781233441339628 -0.00493830857863518 0.0005280829323925573" rpy="1.715407522449564 -0.10581446985290878 -1.4542576694061635" />
+            <geometry>
+                <mesh filename="meshes/Arm-03-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="Base-v1_Revolute-1" type="continuous">
+        <origin xyz="0.0 0.055999999999999994 0.0" rpy="-1.5707963267948966 -0.0 0.0" />
+        <parent link="Base-v1" />
+        <child link="Waist-v1" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+    <joint name="Waist-v1_Revolute-3" type="continuous">
+        <origin xyz="0.013124880000000002 0.00612065 0.04027648000000001" rpy="-1.5707963267948966 1.5407439555097887e-33 -1.5707963267948966" />
+        <parent link="Waist-v1" />
+        <child link="Arm-01-v1" />
+        <axis xyz="0.987777 1.5219114421415926e-33 0.155874" />
+    </joint>
+    <joint name="Arm-01-v1_Revolute-4" type="continuous">
+        <origin xyz="-0.0016449000000000004 -0.11953509999999998 0.010423779999999999" rpy="-1.5407439555097887e-33 -1.5707963267948966 0" />
+        <parent link="Arm-01-v1" />
+        <child link="Arm-02-v1" />
+        <axis xyz="0.15587400000000004 1.781119522703545e-18 -0.987777" />
+    </joint>
+    <joint name="Arm-02-v1_Revolute-6" type="continuous">
+        <origin xyz="0.08700342000000001 0.013092589999999973 0.019297480000000006" rpy="1.9257713114231964e-16 1.5707963267948966 0" />
+        <parent link="Arm-02-v1" />
+        <child link="Arm-03-v1" />
+        <axis xyz="-0.15528299999999998 0.08705000000000018 0.984027" />
+    </joint>
+    <joint name="Arm-03-v1_Revolute-7" type="continuous">
+        <origin xyz="0.009965330000000001 -0.0006784199999999885 0.030087069999999994" rpy="3.141592653589793 -1.5707963267948963 0" />
+        <parent link="Arm-03-v1" />
+        <child link="Gripper-base-v1" />
+        <axis xyz="-0.14330199999999998 0.130178 -0.9810799999999998" />
+    </joint>
+</robot>
