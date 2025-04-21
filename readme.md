@@ -20,11 +20,11 @@ https://github.com/user-attachments/assets/05a551aa-4884-43fc-aa99-f2e50f5f7da3
 
 ### X-Axis Movement 
 
-https://github.com/user-attachments/assets/5b568a0d-0226-43cb-b4ae-68792e50b0da
+https://github.com/user-attachments/assets/55023884-c793-4932-9379-9afd7b7a4f41
 
 ### Y-Axis Movement 
 
-https://github.com/user-attachments/assets/f95fb020-1413-4b37-a1fa-a3b5fbf7d828
+https://github.com/user-attachments/assets/5a72433e-8651-4b88-a4bd-e38a93cfd7f2
 
 ---
 
