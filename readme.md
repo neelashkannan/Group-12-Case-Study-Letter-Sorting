@@ -63,7 +63,7 @@ pip install opencv-python numpy matplotlib pillow requests pyserial pybullet
 
    ```bash
    mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
-   git clone <your-repo-url>  # clone this package here
+   git clone https://github.com/neelashkannan/Group-12-Case-Study-Letter-Sorting.git  # clone this package here
    cd ~/ros2_ws
    colcon build
    source install/setup.bash
