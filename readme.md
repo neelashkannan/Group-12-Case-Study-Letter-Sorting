@@ -12,7 +12,7 @@ This project combines robotics, computer vision, and AI to create a smart mail s
 
 ---
 
-## 🎥 Demonstration Videos
+## 🎥 Testing Videos
 
 ### Suction Cup Testing
 
