@@ -18,23 +18,13 @@ This project combines robotics, computer vision, and AI to create a smart mail s
 
 https://github.com/user-attachments/assets/05a551aa-4884-43fc-aa99-f2e50f5f7da3
 
-<details>
-<summary>X-Axis Movement</summary>
+### X-Axis Movement 
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/5b568a0d-0226-43cb-b4ae-68792e50b0da" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</details>
+https://github.com/user-attachments/assets/5b568a0d-0226-43cb-b4ae-68792e50b0da
 
-<details>
-<summary>Y-Axis Movement</summary>
+### Y-Axis Movement 
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/f95fb020-1413-4b37-a1fa-a3b5fbf7d828" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</details>
+https://github.com/user-attachments/assets/f95fb020-1413-4b37-a1fa-a3b5fbf7d828
 
 ---
 
